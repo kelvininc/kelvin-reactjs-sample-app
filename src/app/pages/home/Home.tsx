@@ -10,6 +10,7 @@ export const Home = () => {
   const paginator = useRef<KvPaginator<AssetItem>>();
 
   useEffect(() => {
+    // https://docs.kelvininc.com/api/clients/javascript/reference/index.html
     paginator.current = AssetService.getPaginator(AssetService.listAsset());
     let unsubs = paginator.current.onDataReceived.subscribe(data => {
       setPageState({

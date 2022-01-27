@@ -30,7 +30,7 @@ function App() {
         url: `${metadata.authentication.url}${metadata.authentication.path}`, // get the keycloak auth url
       }
       KelvinSDK.initialize({
-        baseUrl: `${metadata.api.url}${metadata.api.path}`
+        baseUrl: `${metadata.api.url}${metadata.api.path}` // `https://beta.kelvininc.com/v4/api/`
       }, axios);
       setAuthClient(Keycloak(config));
     }
