@@ -12,6 +12,19 @@ There's a simple example of a paginated request of assets.
 [Axios](https://www.npmjs.com/package/axios)\
 [RxJS](https://www.npmjs.com/package/rxjs)
 
+## Kelvin Web SDK
+
+Kelvin SDK Client provides a simple way to integrate our Authentication, Services and Models inside your project.
+
+[Overview](https://docs.kelvininc.com/4.1/documentation/api/clients/javascript/overview/)\
+[Reference](https://docs.kelvininc.com/api/clients/javascript/reference/index.html)
+
+## Guidelines
+
+[Typescript](./code-guidelines/typescript.md)\
+[Branching](./code-guidelines/branching.md)\
+[Commit style](./code-guidelines/commit_style_guide.md)
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -41,8 +54,4 @@ Your app is ready to be deployed!
 
 Cleans `node_modules` and `build` folder
 
-## Guidelines
 
-[Typescript](./code-guidelines/typescript.md)\
-[Branching](./code-guidelines/branching.md)\
-[Commit style](./code-guidelines/commit_style_guide.md)
