@@ -43,6 +43,6 @@ Cleans `node_modules` and `build` folder
 
 ## Guidelines
 
-[Typescript](code-guidelines/typescript)\
-[Branching](code-guidelines/branching)\
-[Commit style](code-guidelines/commit_style_guide)
+[Typescript](./code-guidelines/typescript.md)\
+[Branching](./code-guidelines/branching.md)\
+[Commit style](./code-guidelines/commit_style_guide.md)
