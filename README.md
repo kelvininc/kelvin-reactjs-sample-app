@@ -1,4 +1,4 @@
-# Getting Started with Kelvin ReacJS Sample APP
+# Getting Started with Kelvin ReactJS Sample APP
 
 Here you have a ReacJS application ready to start developments on the kelvin platform.
 
